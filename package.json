@@ -1,0 +1,10 @@
+{
+  "name": "test-service",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "test": "bash ./test.sh",
+    "watch": "nodemon -e js -x \"npm run test\""
+  }
+}
